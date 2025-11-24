@@ -1,0 +1,38 @@
+# Ignorar ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Configurações e caches
+*.env
+*.ini
+*.log
+*.pid
+*.DS_Store
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Pastas de exportação
+exports/
